@@ -1,0 +1,53 @@
+<h2>Book log</h2>
+
+<% if @count >0 %>
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Patreon</th>
+      <th>Check out date</th>
+      <th>Due date</th>
+      <th>Return date</th>
+      <th>Status</th>
+
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @booklog.each do |book| %>
+      <tr>
+        <td> <% title = Book.find(book.book_id) %><%= title.Title %></td>
+        <td> <% patreon = User.find(book.user_id) %><%= mail_to ( patreon.email) %></td>
+
+        <td><%= book.checkedout.strftime("%m/%d/%Y") %></td>
+        <td><%= book.duedate.strftime("%m/%d/%Y") %></td>
+        <td><%= if book.returndate.nil?
+        else
+          book.returndate.strftime("%m/%d/%Y")
+        end
+           %></td>
+        <td><% if book.checkedoutstatus == true %>
+            checked out
+          <% else %>
+            returned
+          <% end %>
+          </td>
+
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<% else %>
+No books checked out...
+<br>
+<% end %>
+<br>
+<%== pagy_nav(@pagy) %> <br>
+<%= link_to 'Back', books_path %>

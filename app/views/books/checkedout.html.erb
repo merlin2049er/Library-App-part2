@@ -1,0 +1,63 @@
+<h2>Checked out</h2>
+
+<% if @count >0 %>
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Check out date</th>
+      <th>Due date</th>
+    <!--  <th>Status</th> -->
+      <th>Overdue</th>
+      <th>Fine</th>
+      <th>Action</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @checkedout.each do |book| %>
+      <tr>
+        <td> <%  title = Book.find(book.book_id) %><%= title.Title %></td>
+        <td><%= book.checkedout.strftime("%m/%d/%Y") %></td>
+        <td><%= book.duedate.strftime("%m/%d/%Y") %></td>
+        <!-- <td><%#= book.checkedoutstatus %></td> -->
+        <% overdue =(Time.now.to_i - book.duedate.to_i) / (60*24*60) %>
+        <% if overdue > 0 %>
+          <td> <%= overdue  %> days  </td>
+
+        <% else %>
+          <td> no  </td>
+        <% end %>
+
+         <% fine = overdue.to_i * 0.05 %>
+          <% if fine < 0 %>
+        <td>  none  </td>
+          <% elsif  fine > 0 and fine < 5 %>
+          <td><%= number_to_currency(fine) %> </td>
+          <% else %>
+          <td> $5.00 max </td>
+           <% end %>
+
+
+
+        <td> <%= link_to "Return",  controller: "books", action: "return" , id: book.book_id %> </td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<% else %>
+No books checked out...
+<br>
+<% end %>
+<br>
+<%== pagy_nav(@pagy) %> <br>
+
+
+
+<%= link_to 'Back', books_path %>

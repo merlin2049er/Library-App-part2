@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  book_id: 1
+  checkedout: 2022-02-19 09:32:13
+  duedate: 2022-02-19 09:32:13
+  returndate: 2022-02-19
+  checkedoutstatus: MyString
+  boolean: MyString
+
+two:
+  user_id: 1
+  book_id: 1
+  checkedout: 2022-02-19 09:32:13
+  duedate: 2022-02-19 09:32:13
+  returndate: 2022-02-19
+  checkedoutstatus: MyString
+  boolean: MyString

@@ -1,0 +1,63 @@
+<% @user = current_user %>
+
+  <% if user_signed_in? %>
+    <%= link_to "Checked out",  controller: "books", action: "checkedout"  %>
+  <% end %>
+
+  <% if user_signed_in? && @user.admin %>
+    <%= link_to "Book log",  controller: "books", action: "booklog"  %>
+    <%= link_to "Add book",  controller: "books", action: "new"  %>
+
+  <% end %>
+<h1>Books</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Genre</th>
+      <th>Subgenre</th>
+      <th>Pages</th>
+      <th>Publisher</th>
+      <th>Copies</th>
+      <th>Taken</th>
+      <th>Remaining</th>
+      <th>Action</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @books.each do |book| %>
+      <tr>
+        <td><%= book.Title %></td>
+        <td><%= book.Author %></td>
+        <td><%= book.Genre %></td>
+        <td><%= book.Subgenre %></td>
+        <td><%= book.Pages %></td>
+        <td><%= book.Publisher %></td>
+        <td><%= book.Copies %></td>
+        <td><% taken = Checkedout.where(["book_id = ? and checkedouts.checkedoutstatus = ?", book.id, true]).count  %> <%= taken  %></td>
+
+
+        <td><%= remaining = book.Copies - taken%></td>
+
+        <% if user_signed_in? && remaining > 0 %>
+            <td> <%= link_to "Borrow",  controller: "books", action: "borrow" , id: book.id %> </td>
+            <% else %>
+          <td>  Borrow</td>
+        <% end %>
+        <td><%= link_to 'Show', book %></td>
+
+        <% if user_signed_in? && @user.admin %>
+            <td><%= link_to 'Edit', edit_book_path(book) %></td>
+            <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<br>
+<%== pagy_nav(@pagy) %>

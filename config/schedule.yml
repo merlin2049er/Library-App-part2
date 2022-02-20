@@ -1,0 +1,4 @@
+my_first_job:
+  cron: "*/1 * * * *"
+  class: "HardJob"
+  name: 'Hard worker - every 5mi'

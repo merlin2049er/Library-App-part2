@@ -1,0 +1,33 @@
+<h2>Borrow</h2>
+
+<p>
+  <strong>Title:</strong>
+  <%= @book.Title %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @book.Author %>
+</p>
+
+<p>
+  <strong>Publisher:</strong>
+  <%= @book.Publisher %>
+</p>
+
+
+<p>
+  <strong>Checkout date:</strong>
+  <%= Date.today %>
+</p>
+
+
+<p>
+  <strong>Due Date:</strong>
+  <%= Date.today + 7 %>
+</p>
+
+<%= button_to "Borrow", action: "borrow" %>
+
+<br><br>
+<%= link_to 'Back', books_path %>
