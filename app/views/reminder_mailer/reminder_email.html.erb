@@ -10,37 +10,11 @@
     <body>
         <h1>Hello, <%= @user.email %></h1>
         <p>
-          You have the current books checked out, please make sure you return them on time, to avoid late fees.
+          You have the books currently on hold that have been returned.
+          Check them out asap. First come, first serve.
         </p>
-        <p>
-
-          <table>
-            <thead>
-              <tr>
-                <th>Title</th>
-                <th>Checkout date</th>
-                <th>Due date</th>
-                <th>Status</th>
-
-                <th colspan="3"></th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <% @user.checkedouts.each do |book| %>
-                <tr>
-                  <td> <%  title = Book.find(book.book_id) %><%= title.Title %></td>
-                  <td><%= book.checkedout %></td>
-                  <td><%= book.duedate %></td>
-                  <td><%= book.checkedoutstatus %></td>
-
-                </tr>
-              <% end %>
-            </tbody>
-          </table>
-
-        </p>
-        <p>Thanks for using our local library system and have a great day!</p>
+        
+        <p>Thanks for using our regional library system and have a great day!</p>
       </body>
 
 
