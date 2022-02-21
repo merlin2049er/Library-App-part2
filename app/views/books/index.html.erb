@@ -35,7 +35,7 @@
       <th>Copies</th>
       <th>Taken</th>
       <th>Remaining</th>
-      <th>On Hold</th>
+    <!--  <th>On Hold</th> -->
       <th>Action</th>
       <th colspan="3"></th>
     </tr>
@@ -56,7 +56,7 @@
 
 
         <td><%= remaining = book.Copies - taken%></td>
-        <td><%# onhold = Notify.where(["book_id = ?"] , @book.id).count %> <%#= onhold  %> </td>
+      <!--  <td><%# onhold = Notify.where(["book_id = ?"] , book.id).count %> <%#= onhold  %> </td> -->
 
         <% if user_signed_in? && remaining > 0 %>
             <td> <%= link_to "Borrow",  controller: "books", action: "borrow" , id: book.id %> </td>
