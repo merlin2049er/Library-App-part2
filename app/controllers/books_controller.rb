@@ -76,7 +76,7 @@ class BooksController < ApplicationController
     already_checkedout = Checkedout.where({ user: current_user, book_id: id, checkedoutstatus: true })
 
     if  already_checkedout.count == 0
-       Checkedout.create({user: current_user, book: @book, checkedout: Date.today, duedate: Date.today + 7, checkedoutstatus: true , library: @book.Library })
+       Checkedout.create({user: current_user, book: @book, checkedout: Date.today, duedate: Date.today + 7, checkedoutstatus: true })
       flash.alert = @book.Title + " checked out..."
     else
       flash.alert = @book.Title + " already checked out, one copy permitted..."
