@@ -19,6 +19,7 @@ class BooksController < ApplicationController
     id = params[:id]
     @checkdoutby = Checkedout.where({ book_id: id, checkedoutstatus: true })
     @count = @checkdoutby.count
+    @pagy, @checkdoutby = pagy(@checkdoutby)
 
   end
 
