@@ -14,8 +14,7 @@
 
   <div class="field">
     <%= form.label :Library %>
-    <%= form.collection_select :library_id, Library.order(:library),:id,:library, include_blank: false %>
-
+    <%= form.collection_select :Library, Library.order(:library),:library, :library %>
   </div>
 
 

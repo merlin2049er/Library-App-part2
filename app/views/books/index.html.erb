@@ -1,17 +1,17 @@
 <% @user = current_user %>
+<% if user_signed_in? %>
+  <%= link_to "Checked out",  controller: "books", action: "checkedout"  %>
+  <%= link_to "Libraries",  controller: "libraries", action: "index"  %>
+  <%= link_to "Notifications",  controller: "books", action: "notificationlog"  %>
+<% end %>
 
-  <% if user_signed_in? %>
-    <%= link_to "Checked out",  controller: "books", action: "checkedout"  %>
-    <%= link_to "Libraries",  controller: "libraries", action: "index"  %>
-  <% end %>
+<% if user_signed_in? && @user.admin %>
+  <%= link_to "Book log",  controller: "books", action: "booklog"  %>
+  <%= link_to "Add book",  controller: "books", action: "new"  %>
+  <%= link_to "Add library",  controller: "libraries", action: "new"  %>
 
-  <% if user_signed_in? && @user.admin %>
-    <%= link_to "Book log",  controller: "books", action: "booklog"  %>
-    <%= link_to "Add book",  controller: "books", action: "new"  %>
-    <%= link_to "Add library",  controller: "libraries", action: "new"  %>
+<% end %>
 
-
-  <% end %>
 <h1>Books</h1>
 
 <%= search_form_for @q do |f| %>
@@ -35,7 +35,7 @@
       <th>Copies</th>
       <th>Taken</th>
       <th>Remaining</th>
-      <th>On hold</th>
+      <th>On Hold</th>
       <th>Action</th>
       <th colspan="3"></th>
     </tr>
@@ -56,7 +56,7 @@
 
 
         <td><%= remaining = book.Copies - taken%></td>
-        <td>On hold</td>
+        <td><%# onhold = Notify.where(["book_id = ?"] , @book.id).count %> <%#= onhold  %> </td>
 
         <% if user_signed_in? && remaining > 0 %>
             <td> <%= link_to "Borrow",  controller: "books", action: "borrow" , id: book.id %> </td>

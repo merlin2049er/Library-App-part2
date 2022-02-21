@@ -9,7 +9,6 @@ class BooksController < ApplicationController
     @books = @q.result(distinct: true)
 
     @count = @books.count
-
     #@books = Book.all
     @pagy, @books = pagy(@books)
   end
@@ -19,7 +18,6 @@ class BooksController < ApplicationController
 
     id = params[:id]
     @checkdoutby = Checkedout.where({ book_id: id, checkedoutstatus: true })
-    @pagy, @checkdoutby = pagy(@checkdoutby)
     @count = @checkdoutby.count
 
   end
@@ -78,7 +76,7 @@ class BooksController < ApplicationController
     already_checkedout = Checkedout.where({ user: current_user, book_id: id, checkedoutstatus: true })
 
     if  already_checkedout.count == 0
-       Checkedout.create({user: current_user, book: @book, checkedout: Date.today, duedate: Date.today + 7, checkedoutstatus: true})
+       Checkedout.create({user: current_user, book: @book, checkedout: Date.today, duedate: Date.today + 7, checkedoutstatus: true , library: @book.Library })
       flash.alert = @book.Title + " checked out..."
     else
       flash.alert = @book.Title + " already checked out, one copy permitted..."
@@ -105,6 +103,8 @@ class BooksController < ApplicationController
 
   end
 
+
+
   def return
 
     id = params[:id]
@@ -124,17 +124,44 @@ class BooksController < ApplicationController
     redirect_to root_url  if !current_user
     #add userid and book_id of a book that is not in house
     id = params[:id]
+#binding.pry
+    @already_notified = Notify.where({ user_id: current_user.id, book_id: id })
 
-    already_notified = Notify.where({ user: current_user, book_id: id })
-
-    if  already_notified.count == 0
-       Notify.create({user: current_user, book: @book })
+    if  @already_notified.count == 0
+       Notify.create({user_id: current_user.id, book_id: id })
       flash.alert = @book.Title + " on hold..."
     else
       flash.alert = @book.Title + " already on hold, one copy permitted..."
     end
 
     redirect_to root_path
+
+  end
+
+  def notificationlog
+
+    @notificationlog = Notify.where({ user_id: current_user})
+
+    @count = @notificationlog.count
+
+
+  end
+
+  def destroy_notify
+    @notify = current_user.notifys.find_by_book_id(params[:id])
+
+    if @notify and @notify.destroy
+
+      respond_to do |format|
+        format.html { redirect_to notificationlog_url, notice: "Item on hold was successfully deleted." }
+        format.json { head :no_content }
+      end
+    else
+      respond_to do |format|
+        format.html { redirect_to notificationlog_url, notice: "Item on hold failed to delete." }
+        format.json { head :no_content }
+      end
+    end
 
 
   end
@@ -148,6 +175,6 @@ class BooksController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def book_params
-      params.require(:book).permit(:Title, :Author, :Genre, :Subgenre, :Pages, :Publisher, :Copies)
+      params.require(:book).permit(:Library, :Title, :Author, :Genre, :Subgenre, :Pages, :Publisher, :Copies)
     end
 end

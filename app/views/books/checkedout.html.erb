@@ -1,9 +1,6 @@
 <h2>Checked out</h2>
 
 <% if @count >0 %>
-
-
-
 <table>
   <thead>
     <tr>
@@ -41,11 +38,7 @@
           <% else %>
           <td> $5.00 max </td>
            <% end %>
-
-
-
         <td> <%= link_to "Return",  controller: "books", action: "return" , id: book.book_id %> </td>
-
       </tr>
     <% end %>
   </tbody>
@@ -55,15 +48,7 @@
 No books checked out...
 <br>
 <% end %>
-
-
 <br>
 <%== pagy_nav(@pagy) %> <br>
-<sem>Books on Hold (to be notified when available by email)</sem>
 
-    <% @already_notified.each do |book| %>
-    <%  title = Book.find(book.book_id) %><%= title.Title %>
-    <% end %>
-<br>
-<br>
 <%= link_to 'Back', books_path %>

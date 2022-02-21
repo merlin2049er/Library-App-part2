@@ -1,0 +1,11 @@
+<h1>Notifications</h1>
+<sem>Books on Hold (to be notified when available by email) </sem><br><br>
+<% @notificationlog.each do |book| %>
+
+<%  title = Book.find(book.book_id) %><%= title.Title %> |
+
+<%= link_to 'Delete ',  book_destroy_notify_url(book.book_id), method: :delete, data: { confirm: 'Are you sure?' } %> <br>
+
+<% end %>
+<br>
+<%= link_to 'Back', root_path %>

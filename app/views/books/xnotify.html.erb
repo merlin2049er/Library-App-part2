@@ -1,0 +1,7 @@
+<h1>Notifications</h1>
+<br><br>
+
+<sem>Books on Hold (to be notified when available by email) </sem>
+<% @notificationlog.each do |book| %>
+<%  title = Book.find(book.book_id) %><%= title.Title %>
+<% end %>

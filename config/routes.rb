@@ -13,10 +13,11 @@ Rails.application.routes.draw do
   get 'return/(:id)', to: 'books#return'
   #get 'pay/(:id)', to: 'books#pay'
   get 'notify/(:id)', to: 'books#notify'
+  get 'notificationlog', to: 'books#notificationlog'
 
   require 'sidekiq/web'
   require 'sidekiq/cron/web'
-
+delete 'book/book_destroy_notify/:id', to: 'books#destroy_notify', as: :book_destroy_notify
 #  Rails.application.routes.draw do
   resources :libraries
 #    mount Sidekiq::Web => '/sidekiq'
