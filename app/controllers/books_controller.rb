@@ -110,6 +110,21 @@ class BooksController < ApplicationController
 
     id = params[:id]
 
+    copies = (Book.find_by id: id).Copies
+    taken = Checkedout.where(book_id: id, checkedoutstatus: true).count
+
+    remaining = copies - taken
+    onhold = Notify.where(book_id: id).count
+
+    if onhold > 0 and remaining = 0
+      # run the mailing script here...
+
+      binding.pry
+
+    end
+
+
+
     returned = Checkedout.where(book_id: id).and(Checkedout.where(checkedoutstatus: true))
     returned.update(checkedoutstatus: false, returndate: Date.today)
 
