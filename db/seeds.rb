@@ -7,12 +7,13 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'csv'
-csv_text = File.read(Rails.root.join('db','seeds','testdatapart1.csv'))
+csv_text = File.read(Rails.root.join('db','seeds','testdatapart2.csv'))
 csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
-puts  csv.inspect
+
 # add books to book table
 csv.each do |row|
   t = Book.new
+  t.Library = row['Library']
   t.Title = row['Title']
   t.Author = row['Author']
   t.Genre = row['Genre']
@@ -21,5 +22,5 @@ csv.each do |row|
   t.Publisher = row['Publisher']
   t.Copies = row['Copies']
   t.save
-puts t.errors.inspect
+
 end

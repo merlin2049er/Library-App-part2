@@ -41,6 +41,9 @@ gem 'pagy', '~> 4.1'
 gem 'sidekiq', '~> 6.4', '>= 6.4.1'
 gem 'sidekiq-cron', '~> 1.2'
 
+gem 'ransack', github: 'activerecord-hackery/ransack'
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

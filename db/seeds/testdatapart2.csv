@@ -1,0 +1,634 @@
+Library,Title,Author,Genre,SubGenre,Pages,Publisher,Copies
+Neighbourhood Branch,Fundamentals of Wavelets,"Goswami, Jaideva",tech,signal_processing,228,Wiley,10
+Neighbourhood Branch,Data Smart,"Foreman, John",tech,data_science,235,Wiley,15
+Neighbourhood Branch,God Created the Integers,"Hawking, Stephen",tech,mathematics,197,Penguin,19
+Neighbourhood Branch,Superfreakonomics,"Dubner, Stephen",science,economics,179,HarperCollins,8
+Neighbourhood Branch,Orientalism,"Said, Edward",nonfiction,history,197,Penguin,4
+Neighbourhood Branch,"Nature of Statistical Learning Theory, The","Vapnik, Vladimir",tech,data_science,230,Springer,17
+Neighbourhood Branch,Integration of the Indian States,"Menon, V P",nonfiction,history,217,Orient Blackswan,16
+Neighbourhood Branch,"Drunkard's Walk, The","Mlodinow, Leonard",science,mathematics,197,Penguin,16
+Neighbourhood Branch,Image Processing & Mathematical Morphology,"Shih, Frank",tech,signal_processing,241,CRC,14
+Neighbourhood Branch,How to Think Like Sherlock Holmes,"Konnikova, Maria",nonfiction,psychology,240,Penguin,16
+Neighbourhood Branch,Data Scientists at Work,Sebastian Gutierrez,tech,data_science,230,Apress,17
+Neighbourhood Branch,Slaughterhouse Five,"Vonnegut, Kurt",fiction,classic,198,Random House,16
+Neighbourhood Branch,Birth of a Theorem,"Villani, Cedric",science,mathematics,234,Bodley Head,3
+Neighbourhood Branch,Structure & Interpretation of Computer Programs,"Sussman, Gerald",tech,computer_science,240,MIT Press,5
+Neighbourhood Branch,"Age of Wrath, The","Eraly, Abraham",nonfiction,history,238,Penguin,0
+Neighbourhood Branch,"Trial, The","Kafka, Frank",fiction,classic,198,Random House,10
+Neighbourhood Branch,Statistical Decision Theory',"Pratt, John",tech,data_science,236,MIT Press,17
+Neighbourhood Branch,Data Mining Handbook,"Nisbet, Robert",tech,data_science,242,Apress,10
+Neighbourhood Branch,"New Machiavelli, The","Wells, H. G.",fiction,novel,180,Penguin,16
+Neighbourhood Branch,Physics & Philosophy,"Heisenberg, Werner",philosophy,science,197,Penguin,3
+Neighbourhood Branch,Making Software,"Oram, Andy",tech,computer_science,232,O'Reilly,0
+Neighbourhood Branch,"Analysis, Vol I","Tao, Terence",tech,mathematics,248,HBA,19
+Neighbourhood Branch,Machine Learning for Hackers,"Conway, Drew",tech,data_science,233,O'Reilly,19
+Neighbourhood Branch,"Signal and the Noise, The","Silver, Nate",tech,data_science,233,Penguin,0
+Neighbourhood Branch,Python for Data Analysis,"McKinney, Wes",tech,data_science,233,O'Reilly,12
+Neighbourhood Branch,Introduction to Algorithms,"Cormen, Thomas",tech,computer_science,234,MIT Press,15
+Neighbourhood Branch,"Beautiful and the Damned, The","Deb, Siddhartha",nonfiction,history,198,Penguin,10
+Neighbourhood Branch,"Outsider, The","Camus, Albert",fiction,classic,198,Penguin,2
+Neighbourhood Branch,"Complete Sherlock Holmes, The - Vol I","Doyle, Arthur Conan",fiction,classic,176,Random House,19
+Neighbourhood Branch,"Complete Sherlock Holmes, The - Vol II","Doyle, Arthur Conan",fiction,classic,176,Random House,7
+Neighbourhood Branch,"Wealth of Nations, The","Smith, Adam",science,economics,175,Random House,2
+Neighbourhood Branch,"Pillars of the Earth, The","Follett, Ken",fiction,novel,176,Random House,10
+Neighbourhood Branch,Mein Kampf,"Hitler, Adolf",nonfiction,autobiography,212,Rupa,6
+Neighbourhood Branch,"Tao of Physics, The","Capra, Fritjof",science,physics,179,Penguin,14
+Neighbourhood Branch,Surely You're Joking Mr Feynman,"Feynman, Richard",science,physics,198,Random House,16
+Neighbourhood Branch,"Farewell to Arms, A","Hemingway, Ernest",fiction,classic,179,Rupa,18
+Neighbourhood Branch,"Veteran, The","Forsyth, Frederick",fiction,novel,177,Transworld,9
+Neighbourhood Branch,False Impressions,"Archer, Jeffery",fiction,novel,177,Pan,20
+Neighbourhood Branch,"Last Lecture, The","Pausch, Randy",nonfiction,autobiography,197,Hyperion,9
+Neighbourhood Branch,Return of the Primitive,"Rand, Ayn",philosophy,objectivism,202,Penguin,5
+Neighbourhood Branch,Jurassic Park,"Crichton, Michael",fiction,novel,174,Random House,15
+Neighbourhood Branch,"Russian Journal, A","Steinbeck, John",nonfiction,history,196,Penguin,3
+Neighbourhood Branch,Tales of Mystery and Imagination,"Poe, Edgar Allen",fiction,classic,172,HarperCollins,18
+Neighbourhood Branch,Freakonomics,"Dubner, Stephen",science,economics,197,Penguin,13
+Neighbourhood Branch,"Hidden Connections, The","Capra, Fritjof",science,physics,197,HarperCollins,12
+Neighbourhood Branch,"Story of Philosophy, The","Durant, Will",philosophy,history,170,Pocket,18
+Neighbourhood Branch,Asami Asami,"Deshpande, P L",fiction,novel,205,Mauj,3
+Neighbourhood Branch,Journal of a Novel,"Steinbeck, John",fiction,classic,196,Penguin,4
+Neighbourhood Branch,Once There Was a War,"Steinbeck, John",nonfiction,history,196,Penguin,6
+Neighbourhood Branch,"Moon is Down, The","Steinbeck, John",fiction,classic,196,Penguin,5
+Neighbourhood Branch,"Brethren, The","Grisham, John",fiction,novel,174,Random House,4
+Neighbourhood Branch,In a Free State,"Naipaul, V. S.",fiction,novel,196,Rupa,8
+Neighbourhood Branch,Catch 22,"Heller, Joseph",fiction,classic,178,Random House,3
+Neighbourhood Branch,"Complete Mastermind, The",BBC,nonfiction,trivia,178,BBC,16
+Neighbourhood Branch,Dylan on Dylan,"Dylan, Bob",nonfiction,autobiography,197,Random House,2
+Neighbourhood Branch,Soft Computing & Intelligent Systems,"Gupta, Madan",tech,data_science,242,Elsevier,19
+Neighbourhood Branch,Textbook of Economic Theory,"Stonier, Alfred",tech,economics,242,Pearson,5
+Neighbourhood Branch,Econometric Analysis,"Greene, W. H.",tech,economics,242,Pearson,5
+Neighbourhood Branch,Learning OpenCV,"Bradsky, Gary",tech,signal_processing,232,O'Reilly,1
+Neighbourhood Branch,Data Structures Using C & C++,"Tanenbaum, Andrew",tech,computer_science,235,Prentice Hall,8
+Neighbourhood Branch,"Computer Vision, A Modern Approach","Forsyth, David",tech,signal_processing,255,Pearson,12
+Neighbourhood Branch,Principles of Communication Systems,"Taub, Schilling",tech,signal_processing,240,TMH,9
+Neighbourhood Branch,Let Us C,"Kanetkar, Yashwant",tech,computer_science,213,Prentice Hall,9
+Neighbourhood Branch,"Amulet of Samarkand, The","Stroud, Jonathan",fiction,novel,179,Random House,11
+Neighbourhood Branch,Crime and Punishment,"Dostoevsky, Fyodor",fiction,classic,180,Penguin,17
+Neighbourhood Branch,Angels & Demons,"Brown, Dan",fiction,novel,178,Random House,3
+Neighbourhood Branch,"Argumentative Indian, The","Sen, Amartya",nonfiction,history,209,Picador,10
+Neighbourhood Branch,Sea of Poppies,"Ghosh, Amitav",fiction,novel,197,Penguin,16
+Neighbourhood Branch,"Idea of Justice, The","Sen, Amartya",philosophy,economics,212,Penguin,16
+Neighbourhood Branch,"Raisin in the Sun, A","Hansberry, Lorraine",fiction,novel,175,Penguin,7
+Neighbourhood Branch,All the President's Men,"Woodward, Bob",nonfiction,history,177,Random House,7
+Neighbourhood Branch,"Prisoner of Birth, A","Archer, Jeffery",fiction,novel,176,Pan,16
+Neighbourhood Branch,Scoop!,"Nayar, Kuldip",nonfiction,history,216,HarperCollins,8
+Neighbourhood Branch,Ahe Manohar Tari,"Deshpande, Sunita",nonfiction,autobiography,213,Mauj,8
+Neighbourhood Branch,"Last Mughal, The","Dalrymple, William",nonfiction,history,199,Penguin,8
+Neighbourhood Branch,"Social Choice & Welfare, Vol 39 No. 1",Various,tech,economics,235,Springer,1
+Neighbourhood Branch,Radiowaril Bhashane & Shrutika,"Deshpande, P L",nonfiction,misc,213,Mauj,7
+Neighbourhood Branch,Gun Gayin Awadi,"Deshpande, P L",nonfiction,misc,212,Mauj,0
+Neighbourhood Branch,Aghal Paghal,"Deshpande, P L",nonfiction,misc,212,Mauj,8
+Neighbourhood Branch,Maqta-e-Ghalib,"Garg, Sanjay",nonfiction,poetry,221,Mauj,6
+Neighbourhood Branch,Beyond Degrees,,philosophy,education,222,HarperCollins,8
+Neighbourhood Branch,Manasa,"Kale, V P",nonfiction,misc,213,Mauj,15
+Neighbourhood Branch,India from Midnight to Milennium,"Tharoor, Shashi",nonfiction,history,198,Penguin,17
+Neighbourhood Branch,"World's Greatest Trials, The",,nonfiction,history,210,,5
+Neighbourhood Branch,"Great Indian Novel, The","Tharoor, Shashi",fiction,novel,198,Penguin,20
+Neighbourhood Branch,O Jerusalem!,"Lapierre, Dominique",nonfiction,history,217,vikas,3
+Neighbourhood Branch,"City of Joy, The","Lapierre, Dominique",fiction,novel,177,vikas,15
+Neighbourhood Branch,Freedom at Midnight,"Lapierre, Dominique",nonfiction,history,167,vikas,1
+Neighbourhood Branch,"Winter of Our Discontent, The","Steinbeck, John",fiction,classic,196,Penguin,5
+Neighbourhood Branch,On Education,"Russell, Bertrand",philosophy,education,203,Routledge,12
+Neighbourhood Branch,Free Will,"Harris, Sam",nonfiction,psychology,203,FreePress,0
+Neighbourhood Branch,Bookless in Baghdad,"Tharoor, Shashi",nonfiction,history,206,Penguin,7
+Neighbourhood Branch,"Case of the Lame Canary, The","Gardner, Earle Stanley",fiction,novel,179,,14
+Neighbourhood Branch,"Theory of Everything, The","Hawking, Stephen",science,physics,217,Jaico,12
+Neighbourhood Branch,New Markets & Other Essays,"Drucker, Peter",science,economics,176,Penguin,15
+Neighbourhood Branch,Electric Universe,"Bodanis, David",science,physics,201,Penguin,9
+Neighbourhood Branch,"Hunchback of Notre Dame, The","Hugo, Victor",fiction,classic,175,Random House,5
+Neighbourhood Branch,Burning Bright,"Steinbeck, John",fiction,classic,175,Penguin,15
+Neighbourhood Branch,"Age of Discontuinity, The","Drucker, Peter",nonfiction,economics,178,Random House,5
+Neighbourhood Branch,Doctor in the Nude,"Gordon, Richard",fiction,novel,179,Penguin,4
+Neighbourhood Branch,Down and Out in Paris & London,"Orwell, George",nonfiction,autobiography,179,Penguin,4
+Neighbourhood Branch,Identity & Violence,"Sen, Amartya",philosophy,philosophy,219,Penguin,1
+Neighbourhood Branch,Beyond the Three Seas,"Dalrymple, William",nonfiction,history,197,Random House,6
+Neighbourhood Branch,"World's Greatest Short Stories, The",,fiction,classic,217,Jaico,7
+Neighbourhood Branch,Talking Straight,"Iacoca, Lee",nonfiction,autobiography,175,,1
+Neighbourhood Branch,"Maugham's Collected Short Stories, Vol 3","Maugham, William S",fiction,classic,171,Vintage,19
+Neighbourhood Branch,"Phantom of Manhattan, The","Forsyth, Frederick",fiction,classic,180,,9
+Neighbourhood Branch,Ashenden of The British Agent,"Maugham, William S",fiction,classic,160,Vintage,18
+Neighbourhood Branch,Zen & The Art of Motorcycle Maintenance,"Pirsig, Robert",philosophy,autobiography,172,Vintage,17
+Neighbourhood Branch,"Great War for Civilization, The","Fisk, Robert",nonfiction,history,197,HarperCollins,14
+Neighbourhood Branch,We the Living,"Rand, Ayn",fiction,novel,178,Penguin,16
+Neighbourhood Branch,"Artist and the Mathematician, The","Aczel, Amir",science,mathematics,186,HighStakes,2
+Neighbourhood Branch,History of Western Philosophy,"Russell, Bertrand",philosophy,philosophy,213,Routledge,6
+Neighbourhood Branch,Selected Short Stories,,fiction,classic,215,Jaico,12
+Neighbourhood Branch,Rationality & Freedom,"Sen, Amartya",science,economics,213,Springer,14
+Neighbourhood Branch,Clash of Civilizations and Remaking of the World Order,"Huntington, Samuel",nonfiction,history,228,Simon&Schuster,11
+Neighbourhood Branch,Uncommon Wisdom,"Capra, Fritjof",nonfiction,anthology,197,Fontana,6
+Neighbourhood Branch,One,"Bach, Richard",nonfiction,autobiography,172,Dell,2
+Neighbourhood Branch,Karl Marx Biography,,nonfiction,autobiography,162,,18
+Neighbourhood Branch,To Sir With Love,Braithwaite,fiction,classic,197,Penguin,2
+Neighbourhood Branch,Half A Life,"Naipaul, V S",fiction,novel,196,,16
+Neighbourhood Branch,"Discovery of India, The","Nehru, Jawaharlal",nonfiction,history,230,,14
+Neighbourhood Branch,Apulki,"Deshpande, P L",nonfiction,misc,211,,17
+Neighbourhood Branch,Unpopular Essays,"Russell, Bertrand",philosophy,philosophy,198,,18
+Neighbourhood Branch,"Deceiver, The","Forsyth, Frederick",fiction,novel,178,,1
+Neighbourhood Branch,Veil: Secret Wars of the CIA,"Woodward, Bob",nonfiction,history,171,,0
+Neighbourhood Branch,Char Shabda,"Deshpande, P L",nonfiction,misc,214,,14
+Neighbourhood Branch,Rosy is My Relative,"Durrell, Gerald",fiction,novel,176,,9
+Neighbourhood Branch,"Moon and Sixpence, The","Maugham, William S",fiction,classic,180,,16
+Neighbourhood Branch,Political Philosophers,,philosophy,politics,162,,19
+Neighbourhood Branch,"Short History of the World, A","Wells, H G",nonfiction,history,197,,12
+Neighbourhood Branch,"Trembling of a Leaf, The","Maugham, William S",fiction,novel,205,,13
+Neighbourhood Branch,Doctor on the Brain,"Gordon, Richard",fiction,novel,204,,18
+Neighbourhood Branch,Simpsons & Their Mathematical Secrets,"Singh, Simon",science,mathematics,233,,0
+Neighbourhood Branch,Pattern Classification,"Duda, Hart",tech,data_science,241,,5
+Neighbourhood Branch,From Beirut to Jerusalem,"Friedman, Thomas",nonfiction,history,202,,20
+Neighbourhood Branch,"Code Book, The","Singh, Simon",science,mathematics,197,,9
+Neighbourhood Branch,"Age of the Warrior, The","Fisk, Robert",nonfiction,history,197,,13
+Neighbourhood Branch,Final Crisis,,fiction,comic,257,,11
+Neighbourhood Branch,"Killing Joke, The",,fiction,comic,283,,8
+Neighbourhood Branch,Flashpoint,,fiction,comic,265,,11
+Neighbourhood Branch,Batman Earth One,,fiction,comic,265,,13
+Neighbourhood Branch,Crisis on Infinite Earths,,fiction,comic,258,,7
+Neighbourhood Branch,"Numbers Behind Numb3rs, The","Devlin, Keith",science,mathematics,202,,6
+Neighbourhood Branch,Superman Earth One - 1,,fiction,comic,259,,7
+Neighbourhood Branch,Superman Earth One - 2,,fiction,comic,258,,8
+Neighbourhood Branch,Justice League: Throne of Atlantis,,fiction,comic,258,,15
+Neighbourhood Branch,Justice League: The Villain's Journey,,fiction,comic,258,,9
+Neighbourhood Branch,"Death of Superman, The",,fiction,comic,258,,12
+Neighbourhood Branch,History of the DC Universe,,fiction,comic,258,,5
+Neighbourhood Branch,Batman: The Long Halloween,,fiction,comic,258,,16
+Neighbourhood Branch,"Life in Letters, A","Steinbeck, John",nonfiction,autobiography,196,,16
+Neighbourhood Branch,"Information, The","Gleick, James",science,mathematics,233,,11
+Neighbourhood Branch,"Journal of Economics, vol 106 No 3",,science,economics,235,,3
+Neighbourhood Branch,Elements of Information Theory,"Thomas, Joy",tech,signal_processing,229,,5
+Neighbourhood Branch,Power Electronics - Rashid,"Rashid, Muhammad",tech,computer_science,235,,5
+Neighbourhood Branch,Power Electronics - Mohan,"Mohan, Ned",tech,computer_science,237,,1
+Neighbourhood Branch,Neural Networks,"Haykin, Simon",tech,data_science,240,,13
+Neighbourhood Branch,"Grapes of Wrath, The","Steinbeck, John",fiction,classic,196,,7
+Neighbourhood Branch,Vyakti ani Valli,"Deshpande, P L",nonfiction,misc,211,,7
+Neighbourhood Branch,Statistical Learning Theory,"Vapnik, Vladimir",tech,data_science,228,,10
+Neighbourhood Branch,Empire of the Mughal - The Tainted Throne,"Rutherford, Alex",nonfiction,history,180,,3
+Neighbourhood Branch,Empire of the Mughal - Brothers at War,"Rutherford, Alex",nonfiction,history,180,,17
+Neighbourhood Branch,Empire of the Mughal - Ruler of the World,"Rutherford, Alex",nonfiction,history,180,,9
+Neighbourhood Branch,Empire of the Mughal - The Serpent's Tooth,"Rutherford, Alex",nonfiction,history,180,,10
+Neighbourhood Branch,Empire of the Mughal - Raiders from the North,"Rutherford, Alex",nonfiction,history,180,,17
+Neighbourhood Branch,Mossad,"Baz-Zohar, Michael",nonfiction,history,236,,19
+Neighbourhood Branch,Jim Corbett Omnibus,"Corbett, Jim",nonfiction,history,223,,15
+Neighbourhood Branch,20000 Leagues Under the Sea,"Verne, Jules",fiction,novel,190,,9
+Neighbourhood Branch,Batatyachi Chal,Deshpande P L,fiction,novel,200,,16
+Neighbourhood Branch,Hafasavnuk,Deshpande P L,fiction,novel,211,,20
+Neighbourhood Branch,Urlasurla,Deshpande P L,fiction,novel,211,,4
+Neighbourhood Branch,Pointers in C,"Kanetkar, Yashwant",tech,computer_science,213,,1
+Neighbourhood Branch,"Cathedral and the Bazaar, The","Raymond, Eric",tech,computer_science,217,,2
+Neighbourhood Branch,Design with OpAmps,"Franco, Sergio",tech,computer_science,240,,11
+Neighbourhood Branch,Think Complexity,"Downey, Allen",tech,data_science,230,,12
+Neighbourhood Branch,"Devil's Advocate, The","West, Morris",fiction,novel,178,,17
+Neighbourhood Branch,Ayn Rand Answers,"Rand, Ayn",philosophy,objectivism,203,,7
+Neighbourhood Branch,Philosophy: Who Needs It,"Rand, Ayn",philosophy,objectivism,171,,19
+Neighbourhood Branch,"World's Great Thinkers, The",,science,physics,189,,14
+Neighbourhood Branch,Data Analysis with Open Source Tools,"Janert, Phillip",tech,data_science,230,,5
+Neighbourhood Branch,Broca's Brain,"Sagan, Carl",science,physics,174,,19
+Neighbourhood Branch,Men of Mathematics,"Bell, E T",science,mathematics,217,,3
+Neighbourhood Branch,Oxford book of Modern Science Writing,"Dawkins, Richard",science,science,240,,11
+Neighbourhood Branch,"Justice, Judiciary and Democracy","Ranjan, Sudhanshu",nonfiction,legal,224,,3
+Neighbourhood Branch,"Arthashastra, The",Kautiyla,philosophy,philosophy,214,,15
+Neighbourhood Branch,We the People,Palkhivala,philosophy,philosophy,216,,13
+Neighbourhood Branch,We the Nation,Palkhivala,philosophy,philosophy,216,,9
+Neighbourhood Branch,"Courtroom Genius, The",Sorabjee,nonfiction,autobiography,217,,18
+Neighbourhood Branch,Dongri to Dubai,"Zaidi, Hussain",nonfiction,history,216,,7
+Neighbourhood Branch,"History of England, Foundation","Ackroyd, Peter",nonfiction,history,197,,4
+Neighbourhood Branch,City of Djinns,"Dalrymple, William",nonfiction,history,198,,1
+Neighbourhood Branch,India's Legal System,Nariman,nonfiction,legal,177,,14
+Neighbourhood Branch,More Tears to Cry,"Sassoon, Jean",fiction,novel,235,,15
+Neighbourhood Branch,"Ropemaker, The","Dickinson, Peter",fiction,novel,196,,0
+Neighbourhood Branch,Angels & Demons,"Brown, Dan",fiction,novel,170,,16
+Neighbourhood Branch,"Judge, The",,fiction,novel,170,,5
+Neighbourhood Branch,"Attorney, The",,fiction,novel,170,,20
+Neighbourhood Branch,"Prince, The",Machiavelli,fiction,classic,173,,10
+Neighbourhood Branch,Eyeless in Gaza,"Huxley, Aldous",fiction,novel,180,,13
+Neighbourhood Branch,Tales of Beedle the Bard,"Rowling, J K",fiction,novel,184,,7
+Neighbourhood Branch,Girl with the Dragon Tattoo,"Larsson, Steig",fiction,novel,179,,10
+Neighbourhood Branch,Girl who kicked the Hornet's Nest,"Larsson, Steig",fiction,novel,179,,6
+Neighbourhood Branch,Girl who played with Fire,"Larsson, Steig",fiction,novel,179,,13
+Neighbourhood Branch,Batman Handbook,,fiction,comic,270,,20
+Neighbourhood Branch,Murphy's Law,,philosophy,psychology,178,,6
+Neighbourhood Branch,Structure and Randomness,"Tao, Terence",science,mathematics,252,,0
+Neighbourhood Branch,Image Processing with MATLAB,"Eddins, Steve",tech,signal_processing,241,,19
+Neighbourhood Branch,Animal Farm,"Orwell, George",fiction,classic,180,,8
+Neighbourhood Branch,"Idiot, The","Dostoevsky, Fyodor",fiction,classic,197,,5
+Neighbourhood Branch,"Christmas Carol, A","Dickens, Charles",fiction,classic,196,,0
+Downtown Branch,Fundamentals of Wavelets,"Goswami, Jaideva",tech,signal_processing,228,Wiley,2
+Downtown Branch,Data Smart,"Foreman, John",tech,data_science,235,Wiley,13
+Downtown Branch,God Created the Integers,"Hawking, Stephen",tech,mathematics,197,Penguin,1
+Downtown Branch,Superfreakonomics,"Dubner, Stephen",science,economics,179,HarperCollins,5
+Downtown Branch,Orientalism,"Said, Edward",nonfiction,history,197,Penguin,21
+Downtown Branch,"Nature of Statistical Learning Theory, The","Vapnik, Vladimir",tech,data_science,230,Springer,25
+Downtown Branch,Integration of the Indian States,"Menon, V P",nonfiction,history,217,Orient Blackswan,11
+Downtown Branch,"Drunkard's Walk, The","Mlodinow, Leonard",science,mathematics,197,Penguin,28
+Downtown Branch,Image Processing & Mathematical Morphology,"Shih, Frank",tech,signal_processing,241,CRC,5
+Downtown Branch,How to Think Like Sherlock Holmes,"Konnikova, Maria",nonfiction,psychology,240,Penguin,16
+Downtown Branch,Data Scientists at Work,Sebastian Gutierrez,tech,data_science,230,Apress,21
+Downtown Branch,Slaughterhouse Five,"Vonnegut, Kurt",fiction,classic,198,Random House,2
+Downtown Branch,Birth of a Theorem,"Villani, Cedric",science,mathematics,234,Bodley Head,29
+Downtown Branch,Structure & Interpretation of Computer Programs,"Sussman, Gerald",tech,computer_science,240,MIT Press,21
+Downtown Branch,"Age of Wrath, The","Eraly, Abraham",nonfiction,history,238,Penguin,28
+Downtown Branch,"Trial, The","Kafka, Frank",fiction,classic,198,Random House,1
+Downtown Branch,Statistical Decision Theory',"Pratt, John",tech,data_science,236,MIT Press,11
+Downtown Branch,Data Mining Handbook,"Nisbet, Robert",tech,data_science,242,Apress,9
+Downtown Branch,"New Machiavelli, The","Wells, H. G.",fiction,novel,180,Penguin,8
+Downtown Branch,Physics & Philosophy,"Heisenberg, Werner",philosophy,science,197,Penguin,28
+Downtown Branch,Making Software,"Oram, Andy",tech,computer_science,232,O'Reilly,15
+Downtown Branch,"Analysis, Vol I","Tao, Terence",tech,mathematics,248,HBA,1
+Downtown Branch,Machine Learning for Hackers,"Conway, Drew",tech,data_science,233,O'Reilly,18
+Downtown Branch,"Signal and the Noise, The","Silver, Nate",tech,data_science,233,Penguin,6
+Downtown Branch,Python for Data Analysis,"McKinney, Wes",tech,data_science,233,O'Reilly,16
+Downtown Branch,Introduction to Algorithms,"Cormen, Thomas",tech,computer_science,234,MIT Press,27
+Downtown Branch,"Beautiful and the Damned, The","Deb, Siddhartha",nonfiction,history,198,Penguin,27
+Downtown Branch,"Outsider, The","Camus, Albert",fiction,classic,198,Penguin,5
+Downtown Branch,"Complete Sherlock Holmes, The - Vol I","Doyle, Arthur Conan",fiction,classic,176,Random House,3
+Downtown Branch,"Complete Sherlock Holmes, The - Vol II","Doyle, Arthur Conan",fiction,classic,176,Random House,12
+Downtown Branch,"Wealth of Nations, The","Smith, Adam",science,economics,175,Random House,28
+Downtown Branch,"Pillars of the Earth, The","Follett, Ken",fiction,novel,176,Random House,9
+Downtown Branch,Mein Kampf,"Hitler, Adolf",nonfiction,autobiography,212,Rupa,12
+Downtown Branch,"Tao of Physics, The","Capra, Fritjof",science,physics,179,Penguin,1
+Downtown Branch,Surely You're Joking Mr Feynman,"Feynman, Richard",science,physics,198,Random House,18
+Downtown Branch,"Farewell to Arms, A","Hemingway, Ernest",fiction,classic,179,Rupa,29
+Downtown Branch,"Veteran, The","Forsyth, Frederick",fiction,novel,177,Transworld,28
+Downtown Branch,False Impressions,"Archer, Jeffery",fiction,novel,177,Pan,17
+Downtown Branch,"Last Lecture, The","Pausch, Randy",nonfiction,autobiography,197,Hyperion,19
+Downtown Branch,Return of the Primitive,"Rand, Ayn",philosophy,objectivism,202,Penguin,3
+Downtown Branch,Jurassic Park,"Crichton, Michael",fiction,novel,174,Random House,6
+Downtown Branch,"Russian Journal, A","Steinbeck, John",nonfiction,history,196,Penguin,7
+Downtown Branch,Tales of Mystery and Imagination,"Poe, Edgar Allen",fiction,classic,172,HarperCollins,27
+Downtown Branch,Freakonomics,"Dubner, Stephen",science,economics,197,Penguin,1
+Downtown Branch,"Hidden Connections, The","Capra, Fritjof",science,physics,197,HarperCollins,6
+Downtown Branch,"Story of Philosophy, The","Durant, Will",philosophy,history,170,Pocket,19
+Downtown Branch,Asami Asami,"Deshpande, P L",fiction,novel,205,Mauj,14
+Downtown Branch,Journal of a Novel,"Steinbeck, John",fiction,classic,196,Penguin,7
+Downtown Branch,Once There Was a War,"Steinbeck, John",nonfiction,history,196,Penguin,4
+Downtown Branch,"Moon is Down, The","Steinbeck, John",fiction,classic,196,Penguin,4
+Downtown Branch,"Brethren, The","Grisham, John",fiction,novel,174,Random House,29
+Downtown Branch,In a Free State,"Naipaul, V. S.",fiction,novel,196,Rupa,26
+Downtown Branch,Catch 22,"Heller, Joseph",fiction,classic,178,Random House,11
+Downtown Branch,"Complete Mastermind, The",BBC,nonfiction,trivia,178,BBC,2
+Downtown Branch,Dylan on Dylan,"Dylan, Bob",nonfiction,autobiography,197,Random House,21
+Downtown Branch,Soft Computing & Intelligent Systems,"Gupta, Madan",tech,data_science,242,Elsevier,19
+Downtown Branch,Textbook of Economic Theory,"Stonier, Alfred",tech,economics,242,Pearson,16
+Downtown Branch,Econometric Analysis,"Greene, W. H.",tech,economics,242,Pearson,14
+Downtown Branch,Learning OpenCV,"Bradsky, Gary",tech,signal_processing,232,O'Reilly,14
+Downtown Branch,Data Structures Using C & C++,"Tanenbaum, Andrew",tech,computer_science,235,Prentice Hall,29
+Downtown Branch,"Computer Vision, A Modern Approach","Forsyth, David",tech,signal_processing,255,Pearson,25
+Downtown Branch,Principles of Communication Systems,"Taub, Schilling",tech,signal_processing,240,TMH,9
+Downtown Branch,Let Us C,"Kanetkar, Yashwant",tech,computer_science,213,Prentice Hall,24
+Downtown Branch,"Amulet of Samarkand, The","Stroud, Jonathan",fiction,novel,179,Random House,11
+Downtown Branch,Crime and Punishment,"Dostoevsky, Fyodor",fiction,classic,180,Penguin,21
+Downtown Branch,Angels & Demons,"Brown, Dan",fiction,novel,178,Random House,21
+Downtown Branch,"Argumentative Indian, The","Sen, Amartya",nonfiction,history,209,Picador,24
+Downtown Branch,Sea of Poppies,"Ghosh, Amitav",fiction,novel,197,Penguin,15
+Downtown Branch,"Idea of Justice, The","Sen, Amartya",philosophy,economics,212,Penguin,12
+Downtown Branch,"Raisin in the Sun, A","Hansberry, Lorraine",fiction,novel,175,Penguin,2
+Downtown Branch,All the President's Men,"Woodward, Bob",nonfiction,history,177,Random House,12
+Downtown Branch,"Prisoner of Birth, A","Archer, Jeffery",fiction,novel,176,Pan,26
+Downtown Branch,Scoop!,"Nayar, Kuldip",nonfiction,history,216,HarperCollins,28
+Downtown Branch,Ahe Manohar Tari,"Deshpande, Sunita",nonfiction,autobiography,213,Mauj,8
+Downtown Branch,"Last Mughal, The","Dalrymple, William",nonfiction,history,199,Penguin,29
+Downtown Branch,"Social Choice & Welfare, Vol 39 No. 1",Various,tech,economics,235,Springer,29
+Downtown Branch,Radiowaril Bhashane & Shrutika,"Deshpande, P L",nonfiction,misc,213,Mauj,13
+Downtown Branch,Gun Gayin Awadi,"Deshpande, P L",nonfiction,misc,212,Mauj,6
+Downtown Branch,Aghal Paghal,"Deshpande, P L",nonfiction,misc,212,Mauj,25
+Downtown Branch,Maqta-e-Ghalib,"Garg, Sanjay",nonfiction,poetry,221,Mauj,11
+Downtown Branch,Beyond Degrees,,philosophy,education,222,HarperCollins,4
+Downtown Branch,Manasa,"Kale, V P",nonfiction,misc,213,Mauj,12
+Downtown Branch,India from Midnight to Milennium,"Tharoor, Shashi",nonfiction,history,198,Penguin,6
+Downtown Branch,"World's Greatest Trials, The",,nonfiction,history,210,,18
+Downtown Branch,"Great Indian Novel, The","Tharoor, Shashi",fiction,novel,198,Penguin,20
+Downtown Branch,O Jerusalem!,"Lapierre, Dominique",nonfiction,history,217,vikas,1
+Downtown Branch,"City of Joy, The","Lapierre, Dominique",fiction,novel,177,vikas,18
+Downtown Branch,Freedom at Midnight,"Lapierre, Dominique",nonfiction,history,167,vikas,20
+Downtown Branch,"Winter of Our Discontent, The","Steinbeck, John",fiction,classic,196,Penguin,16
+Downtown Branch,On Education,"Russell, Bertrand",philosophy,education,203,Routledge,8
+Downtown Branch,Free Will,"Harris, Sam",nonfiction,psychology,203,FreePress,10
+Downtown Branch,Bookless in Baghdad,"Tharoor, Shashi",nonfiction,history,206,Penguin,7
+Downtown Branch,"Case of the Lame Canary, The","Gardner, Earle Stanley",fiction,novel,179,,15
+Downtown Branch,"Theory of Everything, The","Hawking, Stephen",science,physics,217,Jaico,3
+Downtown Branch,New Markets & Other Essays,"Drucker, Peter",science,economics,176,Penguin,29
+Downtown Branch,Electric Universe,"Bodanis, David",science,physics,201,Penguin,30
+Downtown Branch,"Hunchback of Notre Dame, The","Hugo, Victor",fiction,classic,175,Random House,2
+Downtown Branch,Burning Bright,"Steinbeck, John",fiction,classic,175,Penguin,15
+Downtown Branch,"Age of Discontuinity, The","Drucker, Peter",nonfiction,economics,178,Random House,1
+Downtown Branch,Doctor in the Nude,"Gordon, Richard",fiction,novel,179,Penguin,8
+Downtown Branch,Down and Out in Paris & London,"Orwell, George",nonfiction,autobiography,179,Penguin,2
+Downtown Branch,Identity & Violence,"Sen, Amartya",philosophy,philosophy,219,Penguin,7
+Downtown Branch,Beyond the Three Seas,"Dalrymple, William",nonfiction,history,197,Random House,25
+Downtown Branch,"World's Greatest Short Stories, The",,fiction,classic,217,Jaico,23
+Downtown Branch,Talking Straight,"Iacoca, Lee",nonfiction,autobiography,175,,3
+Downtown Branch,"Maugham's Collected Short Stories, Vol 3","Maugham, William S",fiction,classic,171,Vintage,19
+Downtown Branch,"Phantom of Manhattan, The","Forsyth, Frederick",fiction,classic,180,,2
+Downtown Branch,Ashenden of The British Agent,"Maugham, William S",fiction,classic,160,Vintage,7
+Downtown Branch,Zen & The Art of Motorcycle Maintenance,"Pirsig, Robert",philosophy,autobiography,172,Vintage,18
+Downtown Branch,"Great War for Civilization, The","Fisk, Robert",nonfiction,history,197,HarperCollins,6
+Downtown Branch,We the Living,"Rand, Ayn",fiction,novel,178,Penguin,24
+Downtown Branch,"Artist and the Mathematician, The","Aczel, Amir",science,mathematics,186,HighStakes,14
+Downtown Branch,History of Western Philosophy,"Russell, Bertrand",philosophy,philosophy,213,Routledge,11
+Downtown Branch,Selected Short Stories,,fiction,classic,215,Jaico,21
+Downtown Branch,Rationality & Freedom,"Sen, Amartya",science,economics,213,Springer,24
+Downtown Branch,Clash of Civilizations and Remaking of the World Order,"Huntington, Samuel",nonfiction,history,228,Simon&Schuster,13
+Downtown Branch,Uncommon Wisdom,"Capra, Fritjof",nonfiction,anthology,197,Fontana,28
+Downtown Branch,One,"Bach, Richard",nonfiction,autobiography,172,Dell,17
+Downtown Branch,Karl Marx Biography,,nonfiction,autobiography,162,,30
+Downtown Branch,To Sir With Love,Braithwaite,fiction,classic,197,Penguin,2
+Downtown Branch,Half A Life,"Naipaul, V S",fiction,novel,196,,6
+Downtown Branch,"Discovery of India, The","Nehru, Jawaharlal",nonfiction,history,230,,16
+Downtown Branch,Apulki,"Deshpande, P L",nonfiction,misc,211,,30
+Downtown Branch,Unpopular Essays,"Russell, Bertrand",philosophy,philosophy,198,,28
+Downtown Branch,"Deceiver, The","Forsyth, Frederick",fiction,novel,178,,2
+Downtown Branch,Veil: Secret Wars of the CIA,"Woodward, Bob",nonfiction,history,171,,12
+Downtown Branch,Char Shabda,"Deshpande, P L",nonfiction,misc,214,,6
+Downtown Branch,Rosy is My Relative,"Durrell, Gerald",fiction,novel,176,,13
+Downtown Branch,"Moon and Sixpence, The","Maugham, William S",fiction,classic,180,,26
+Downtown Branch,Political Philosophers,,philosophy,politics,162,,5
+Downtown Branch,"Short History of the World, A","Wells, H G",nonfiction,history,197,,29
+Downtown Branch,"Trembling of a Leaf, The","Maugham, William S",fiction,novel,205,,5
+Downtown Branch,Doctor on the Brain,"Gordon, Richard",fiction,novel,204,,21
+Downtown Branch,Simpsons & Their Mathematical Secrets,"Singh, Simon",science,mathematics,233,,1
+Downtown Branch,Pattern Classification,"Duda, Hart",tech,data_science,241,,14
+Downtown Branch,From Beirut to Jerusalem,"Friedman, Thomas",nonfiction,history,202,,29
+Downtown Branch,"Code Book, The","Singh, Simon",science,mathematics,197,,21
+Downtown Branch,"Age of the Warrior, The","Fisk, Robert",nonfiction,history,197,,25
+Downtown Branch,Final Crisis,,fiction,comic,257,,26
+Downtown Branch,"Killing Joke, The",,fiction,comic,283,,22
+Downtown Branch,Flashpoint,,fiction,comic,265,,29
+Downtown Branch,Batman Earth One,,fiction,comic,265,,26
+Downtown Branch,Crisis on Infinite Earths,,fiction,comic,258,,9
+Downtown Branch,"Numbers Behind Numb3rs, The","Devlin, Keith",science,mathematics,202,,5
+Downtown Branch,Superman Earth One - 1,,fiction,comic,259,,29
+Downtown Branch,Superman Earth One - 2,,fiction,comic,258,,23
+Downtown Branch,Justice League: Throne of Atlantis,,fiction,comic,258,,16
+Downtown Branch,Justice League: The Villain's Journey,,fiction,comic,258,,10
+Downtown Branch,"Death of Superman, The",,fiction,comic,258,,25
+Downtown Branch,History of the DC Universe,,fiction,comic,258,,6
+Downtown Branch,Batman: The Long Halloween,,fiction,comic,258,,5
+Downtown Branch,"Life in Letters, A","Steinbeck, John",nonfiction,autobiography,196,,13
+Downtown Branch,"Information, The","Gleick, James",science,mathematics,233,,11
+Downtown Branch,"Journal of Economics, vol 106 No 3",,science,economics,235,,22
+Downtown Branch,Elements of Information Theory,"Thomas, Joy",tech,signal_processing,229,,17
+Downtown Branch,Power Electronics - Rashid,"Rashid, Muhammad",tech,computer_science,235,,16
+Downtown Branch,Power Electronics - Mohan,"Mohan, Ned",tech,computer_science,237,,8
+Downtown Branch,Neural Networks,"Haykin, Simon",tech,data_science,240,,10
+Downtown Branch,"Grapes of Wrath, The","Steinbeck, John",fiction,classic,196,,5
+Downtown Branch,Vyakti ani Valli,"Deshpande, P L",nonfiction,misc,211,,2
+Downtown Branch,Statistical Learning Theory,"Vapnik, Vladimir",tech,data_science,228,,26
+Downtown Branch,Empire of the Mughal - The Tainted Throne,"Rutherford, Alex",nonfiction,history,180,,28
+Downtown Branch,Empire of the Mughal - Brothers at War,"Rutherford, Alex",nonfiction,history,180,,22
+Downtown Branch,Empire of the Mughal - Ruler of the World,"Rutherford, Alex",nonfiction,history,180,,22
+Downtown Branch,Empire of the Mughal - The Serpent's Tooth,"Rutherford, Alex",nonfiction,history,180,,22
+Downtown Branch,Empire of the Mughal - Raiders from the North,"Rutherford, Alex",nonfiction,history,180,,8
+Downtown Branch,Mossad,"Baz-Zohar, Michael",nonfiction,history,236,,27
+Downtown Branch,Jim Corbett Omnibus,"Corbett, Jim",nonfiction,history,223,,6
+Downtown Branch,20000 Leagues Under the Sea,"Verne, Jules",fiction,novel,190,,16
+Downtown Branch,Batatyachi Chal,Deshpande P L,fiction,novel,200,,8
+Downtown Branch,Hafasavnuk,Deshpande P L,fiction,novel,211,,10
+Downtown Branch,Urlasurla,Deshpande P L,fiction,novel,211,,14
+Downtown Branch,Pointers in C,"Kanetkar, Yashwant",tech,computer_science,213,,29
+Downtown Branch,"Cathedral and the Bazaar, The","Raymond, Eric",tech,computer_science,217,,25
+Downtown Branch,Design with OpAmps,"Franco, Sergio",tech,computer_science,240,,16
+Downtown Branch,Think Complexity,"Downey, Allen",tech,data_science,230,,1
+Downtown Branch,"Devil's Advocate, The","West, Morris",fiction,novel,178,,28
+Downtown Branch,Ayn Rand Answers,"Rand, Ayn",philosophy,objectivism,203,,1
+Downtown Branch,Philosophy: Who Needs It,"Rand, Ayn",philosophy,objectivism,171,,21
+Downtown Branch,"World's Great Thinkers, The",,science,physics,189,,19
+Downtown Branch,Data Analysis with Open Source Tools,"Janert, Phillip",tech,data_science,230,,8
+Downtown Branch,Broca's Brain,"Sagan, Carl",science,physics,174,,18
+Downtown Branch,Men of Mathematics,"Bell, E T",science,mathematics,217,,16
+Downtown Branch,Oxford book of Modern Science Writing,"Dawkins, Richard",science,science,240,,19
+Downtown Branch,"Justice, Judiciary and Democracy","Ranjan, Sudhanshu",nonfiction,legal,224,,3
+Downtown Branch,"Arthashastra, The",Kautiyla,philosophy,philosophy,214,,3
+Downtown Branch,We the People,Palkhivala,philosophy,philosophy,216,,25
+Downtown Branch,We the Nation,Palkhivala,philosophy,philosophy,216,,20
+Downtown Branch,"Courtroom Genius, The",Sorabjee,nonfiction,autobiography,217,,12
+Downtown Branch,Dongri to Dubai,"Zaidi, Hussain",nonfiction,history,216,,23
+Downtown Branch,"History of England, Foundation","Ackroyd, Peter",nonfiction,history,197,,4
+Downtown Branch,City of Djinns,"Dalrymple, William",nonfiction,history,198,,22
+Downtown Branch,India's Legal System,Nariman,nonfiction,legal,177,,24
+Downtown Branch,More Tears to Cry,"Sassoon, Jean",fiction,novel,235,,13
+Downtown Branch,"Ropemaker, The","Dickinson, Peter",fiction,novel,196,,1
+Downtown Branch,Angels & Demons,"Brown, Dan",fiction,novel,170,,25
+Downtown Branch,"Judge, The",,fiction,novel,170,,15
+Downtown Branch,"Attorney, The",,fiction,novel,170,,2
+Downtown Branch,"Prince, The",Machiavelli,fiction,classic,173,,2
+Downtown Branch,Eyeless in Gaza,"Huxley, Aldous",fiction,novel,180,,14
+Downtown Branch,Tales of Beedle the Bard,"Rowling, J K",fiction,novel,184,,25
+Downtown Branch,Girl with the Dragon Tattoo,"Larsson, Steig",fiction,novel,179,,21
+Downtown Branch,Girl who kicked the Hornet's Nest,"Larsson, Steig",fiction,novel,179,,17
+Downtown Branch,Girl who played with Fire,"Larsson, Steig",fiction,novel,179,,24
+Downtown Branch,Batman Handbook,,fiction,comic,270,,28
+Downtown Branch,Murphy's Law,,philosophy,psychology,178,,20
+Downtown Branch,Structure and Randomness,"Tao, Terence",science,mathematics,252,,29
+Downtown Branch,Image Processing with MATLAB,"Eddins, Steve",tech,signal_processing,241,,19
+Downtown Branch,Animal Farm,"Orwell, George",fiction,classic,180,,22
+Downtown Branch,"Idiot, The","Dostoevsky, Fyodor",fiction,classic,197,,8
+Downtown Branch,"Christmas Carol, A","Dickens, Charles",fiction,classic,196,,2
+Suburbs Branch,Fundamentals of Wavelets,"Goswami, Jaideva",tech,signal_processing,228,Wiley,4
+Suburbs Branch,Data Smart,"Foreman, John",tech,data_science,235,Wiley,6
+Suburbs Branch,God Created the Integers,"Hawking, Stephen",tech,mathematics,197,Penguin,2
+Suburbs Branch,Superfreakonomics,"Dubner, Stephen",science,economics,179,HarperCollins,5
+Suburbs Branch,Orientalism,"Said, Edward",nonfiction,history,197,Penguin,9
+Suburbs Branch,"Nature of Statistical Learning Theory, The","Vapnik, Vladimir",tech,data_science,230,Springer,5
+Suburbs Branch,Integration of the Indian States,"Menon, V P",nonfiction,history,217,Orient Blackswan,9
+Suburbs Branch,"Drunkard's Walk, The","Mlodinow, Leonard",science,mathematics,197,Penguin,1
+Suburbs Branch,Image Processing & Mathematical Morphology,"Shih, Frank",tech,signal_processing,241,CRC,1
+Suburbs Branch,How to Think Like Sherlock Holmes,"Konnikova, Maria",nonfiction,psychology,240,Penguin,5
+Suburbs Branch,Data Scientists at Work,Sebastian Gutierrez,tech,data_science,230,Apress,2
+Suburbs Branch,Slaughterhouse Five,"Vonnegut, Kurt",fiction,classic,198,Random House,6
+Suburbs Branch,Birth of a Theorem,"Villani, Cedric",science,mathematics,234,Bodley Head,6
+Suburbs Branch,Structure & Interpretation of Computer Programs,"Sussman, Gerald",tech,computer_science,240,MIT Press,8
+Suburbs Branch,"Age of Wrath, The","Eraly, Abraham",nonfiction,history,238,Penguin,7
+Suburbs Branch,"Trial, The","Kafka, Frank",fiction,classic,198,Random House,8
+Suburbs Branch,Statistical Decision Theory',"Pratt, John",tech,data_science,236,MIT Press,2
+Suburbs Branch,Data Mining Handbook,"Nisbet, Robert",tech,data_science,242,Apress,5
+Suburbs Branch,"New Machiavelli, The","Wells, H. G.",fiction,novel,180,Penguin,1
+Suburbs Branch,Physics & Philosophy,"Heisenberg, Werner",philosophy,science,197,Penguin,8
+Suburbs Branch,Making Software,"Oram, Andy",tech,computer_science,232,O'Reilly,1
+Suburbs Branch,"Analysis, Vol I","Tao, Terence",tech,mathematics,248,HBA,4
+Suburbs Branch,Machine Learning for Hackers,"Conway, Drew",tech,data_science,233,O'Reilly,1
+Suburbs Branch,"Signal and the Noise, The","Silver, Nate",tech,data_science,233,Penguin,6
+Suburbs Branch,Python for Data Analysis,"McKinney, Wes",tech,data_science,233,O'Reilly,3
+Suburbs Branch,Introduction to Algorithms,"Cormen, Thomas",tech,computer_science,234,MIT Press,8
+Suburbs Branch,"Beautiful and the Damned, The","Deb, Siddhartha",nonfiction,history,198,Penguin,6
+Suburbs Branch,"Outsider, The","Camus, Albert",fiction,classic,198,Penguin,3
+Suburbs Branch,"Complete Sherlock Holmes, The - Vol I","Doyle, Arthur Conan",fiction,classic,176,Random House,2
+Suburbs Branch,"Complete Sherlock Holmes, The - Vol II","Doyle, Arthur Conan",fiction,classic,176,Random House,9
+Suburbs Branch,"Wealth of Nations, The","Smith, Adam",science,economics,175,Random House,10
+Suburbs Branch,"Pillars of the Earth, The","Follett, Ken",fiction,novel,176,Random House,7
+Suburbs Branch,Mein Kampf,"Hitler, Adolf",nonfiction,autobiography,212,Rupa,10
+Suburbs Branch,"Tao of Physics, The","Capra, Fritjof",science,physics,179,Penguin,3
+Suburbs Branch,Surely You're Joking Mr Feynman,"Feynman, Richard",science,physics,198,Random House,1
+Suburbs Branch,"Farewell to Arms, A","Hemingway, Ernest",fiction,classic,179,Rupa,10
+Suburbs Branch,"Veteran, The","Forsyth, Frederick",fiction,novel,177,Transworld,8
+Suburbs Branch,False Impressions,"Archer, Jeffery",fiction,novel,177,Pan,0
+Suburbs Branch,"Last Lecture, The","Pausch, Randy",nonfiction,autobiography,197,Hyperion,3
+Suburbs Branch,Return of the Primitive,"Rand, Ayn",philosophy,objectivism,202,Penguin,9
+Suburbs Branch,Jurassic Park,"Crichton, Michael",fiction,novel,174,Random House,5
+Suburbs Branch,"Russian Journal, A","Steinbeck, John",nonfiction,history,196,Penguin,6
+Suburbs Branch,Tales of Mystery and Imagination,"Poe, Edgar Allen",fiction,classic,172,HarperCollins,5
+Suburbs Branch,Freakonomics,"Dubner, Stephen",science,economics,197,Penguin,7
+Suburbs Branch,"Hidden Connections, The","Capra, Fritjof",science,physics,197,HarperCollins,6
+Suburbs Branch,"Story of Philosophy, The","Durant, Will",philosophy,history,170,Pocket,6
+Suburbs Branch,Asami Asami,"Deshpande, P L",fiction,novel,205,Mauj,4
+Suburbs Branch,Journal of a Novel,"Steinbeck, John",fiction,classic,196,Penguin,3
+Suburbs Branch,Once There Was a War,"Steinbeck, John",nonfiction,history,196,Penguin,2
+Suburbs Branch,"Moon is Down, The","Steinbeck, John",fiction,classic,196,Penguin,7
+Suburbs Branch,"Brethren, The","Grisham, John",fiction,novel,174,Random House,7
+Suburbs Branch,In a Free State,"Naipaul, V. S.",fiction,novel,196,Rupa,1
+Suburbs Branch,Catch 22,"Heller, Joseph",fiction,classic,178,Random House,10
+Suburbs Branch,"Complete Mastermind, The",BBC,nonfiction,trivia,178,BBC,0
+Suburbs Branch,Dylan on Dylan,"Dylan, Bob",nonfiction,autobiography,197,Random House,8
+Suburbs Branch,Soft Computing & Intelligent Systems,"Gupta, Madan",tech,data_science,242,Elsevier,7
+Suburbs Branch,Textbook of Economic Theory,"Stonier, Alfred",tech,economics,242,Pearson,6
+Suburbs Branch,Econometric Analysis,"Greene, W. H.",tech,economics,242,Pearson,9
+Suburbs Branch,Learning OpenCV,"Bradsky, Gary",tech,signal_processing,232,O'Reilly,10
+Suburbs Branch,Data Structures Using C & C++,"Tanenbaum, Andrew",tech,computer_science,235,Prentice Hall,5
+Suburbs Branch,"Computer Vision, A Modern Approach","Forsyth, David",tech,signal_processing,255,Pearson,3
+Suburbs Branch,Principles of Communication Systems,"Taub, Schilling",tech,signal_processing,240,TMH,6
+Suburbs Branch,Let Us C,"Kanetkar, Yashwant",tech,computer_science,213,Prentice Hall,8
+Suburbs Branch,"Amulet of Samarkand, The","Stroud, Jonathan",fiction,novel,179,Random House,8
+Suburbs Branch,Crime and Punishment,"Dostoevsky, Fyodor",fiction,classic,180,Penguin,0
+Suburbs Branch,Angels & Demons,"Brown, Dan",fiction,novel,178,Random House,8
+Suburbs Branch,"Argumentative Indian, The","Sen, Amartya",nonfiction,history,209,Picador,3
+Suburbs Branch,Sea of Poppies,"Ghosh, Amitav",fiction,novel,197,Penguin,0
+Suburbs Branch,"Idea of Justice, The","Sen, Amartya",philosophy,economics,212,Penguin,1
+Suburbs Branch,"Raisin in the Sun, A","Hansberry, Lorraine",fiction,novel,175,Penguin,2
+Suburbs Branch,All the President's Men,"Woodward, Bob",nonfiction,history,177,Random House,0
+Suburbs Branch,"Prisoner of Birth, A","Archer, Jeffery",fiction,novel,176,Pan,0
+Suburbs Branch,Scoop!,"Nayar, Kuldip",nonfiction,history,216,HarperCollins,9
+Suburbs Branch,Ahe Manohar Tari,"Deshpande, Sunita",nonfiction,autobiography,213,Mauj,2
+Suburbs Branch,"Last Mughal, The","Dalrymple, William",nonfiction,history,199,Penguin,4
+Suburbs Branch,"Social Choice & Welfare, Vol 39 No. 1",Various,tech,economics,235,Springer,6
+Suburbs Branch,Radiowaril Bhashane & Shrutika,"Deshpande, P L",nonfiction,misc,213,Mauj,9
+Suburbs Branch,Gun Gayin Awadi,"Deshpande, P L",nonfiction,misc,212,Mauj,6
+Suburbs Branch,Aghal Paghal,"Deshpande, P L",nonfiction,misc,212,Mauj,5
+Suburbs Branch,Maqta-e-Ghalib,"Garg, Sanjay",nonfiction,poetry,221,Mauj,6
+Suburbs Branch,Beyond Degrees,,philosophy,education,222,HarperCollins,0
+Suburbs Branch,Manasa,"Kale, V P",nonfiction,misc,213,Mauj,8
+Suburbs Branch,India from Midnight to Milennium,"Tharoor, Shashi",nonfiction,history,198,Penguin,7
+Suburbs Branch,"World's Greatest Trials, The",,nonfiction,history,210,,3
+Suburbs Branch,"Great Indian Novel, The","Tharoor, Shashi",fiction,novel,198,Penguin,8
+Suburbs Branch,O Jerusalem!,"Lapierre, Dominique",nonfiction,history,217,vikas,5
+Suburbs Branch,"City of Joy, The","Lapierre, Dominique",fiction,novel,177,vikas,10
+Suburbs Branch,Freedom at Midnight,"Lapierre, Dominique",nonfiction,history,167,vikas,6
+Suburbs Branch,"Winter of Our Discontent, The","Steinbeck, John",fiction,classic,196,Penguin,8
+Suburbs Branch,On Education,"Russell, Bertrand",philosophy,education,203,Routledge,7
+Suburbs Branch,Free Will,"Harris, Sam",nonfiction,psychology,203,FreePress,4
+Suburbs Branch,Bookless in Baghdad,"Tharoor, Shashi",nonfiction,history,206,Penguin,2
+Suburbs Branch,"Case of the Lame Canary, The","Gardner, Earle Stanley",fiction,novel,179,,5
+Suburbs Branch,"Theory of Everything, The","Hawking, Stephen",science,physics,217,Jaico,7
+Suburbs Branch,New Markets & Other Essays,"Drucker, Peter",science,economics,176,Penguin,3
+Suburbs Branch,Electric Universe,"Bodanis, David",science,physics,201,Penguin,7
+Suburbs Branch,"Hunchback of Notre Dame, The","Hugo, Victor",fiction,classic,175,Random House,3
+Suburbs Branch,Burning Bright,"Steinbeck, John",fiction,classic,175,Penguin,4
+Suburbs Branch,"Age of Discontuinity, The","Drucker, Peter",nonfiction,economics,178,Random House,8
+Suburbs Branch,Doctor in the Nude,"Gordon, Richard",fiction,novel,179,Penguin,0
+Suburbs Branch,Down and Out in Paris & London,"Orwell, George",nonfiction,autobiography,179,Penguin,8
+Suburbs Branch,Identity & Violence,"Sen, Amartya",philosophy,philosophy,219,Penguin,9
+Suburbs Branch,Beyond the Three Seas,"Dalrymple, William",nonfiction,history,197,Random House,7
+Suburbs Branch,"World's Greatest Short Stories, The",,fiction,classic,217,Jaico,3
+Suburbs Branch,Talking Straight,"Iacoca, Lee",nonfiction,autobiography,175,,4
+Suburbs Branch,"Maugham's Collected Short Stories, Vol 3","Maugham, William S",fiction,classic,171,Vintage,8
+Suburbs Branch,"Phantom of Manhattan, The","Forsyth, Frederick",fiction,classic,180,,8
+Suburbs Branch,Ashenden of The British Agent,"Maugham, William S",fiction,classic,160,Vintage,7
+Suburbs Branch,Zen & The Art of Motorcycle Maintenance,"Pirsig, Robert",philosophy,autobiography,172,Vintage,1
+Suburbs Branch,"Great War for Civilization, The","Fisk, Robert",nonfiction,history,197,HarperCollins,2
+Suburbs Branch,We the Living,"Rand, Ayn",fiction,novel,178,Penguin,2
+Suburbs Branch,"Artist and the Mathematician, The","Aczel, Amir",science,mathematics,186,HighStakes,2
+Suburbs Branch,History of Western Philosophy,"Russell, Bertrand",philosophy,philosophy,213,Routledge,9
+Suburbs Branch,Selected Short Stories,,fiction,classic,215,Jaico,2
+Suburbs Branch,Rationality & Freedom,"Sen, Amartya",science,economics,213,Springer,7
+Suburbs Branch,Clash of Civilizations and Remaking of the World Order,"Huntington, Samuel",nonfiction,history,228,Simon&Schuster,7
+Suburbs Branch,Uncommon Wisdom,"Capra, Fritjof",nonfiction,anthology,197,Fontana,0
+Suburbs Branch,One,"Bach, Richard",nonfiction,autobiography,172,Dell,4
+Suburbs Branch,Karl Marx Biography,,nonfiction,autobiography,162,,9
+Suburbs Branch,To Sir With Love,Braithwaite,fiction,classic,197,Penguin,9
+Suburbs Branch,Half A Life,"Naipaul, V S",fiction,novel,196,,5
+Suburbs Branch,"Discovery of India, The","Nehru, Jawaharlal",nonfiction,history,230,,5
+Suburbs Branch,Apulki,"Deshpande, P L",nonfiction,misc,211,,0
+Suburbs Branch,Unpopular Essays,"Russell, Bertrand",philosophy,philosophy,198,,5
+Suburbs Branch,"Deceiver, The","Forsyth, Frederick",fiction,novel,178,,10
+Suburbs Branch,Veil: Secret Wars of the CIA,"Woodward, Bob",nonfiction,history,171,,1
+Suburbs Branch,Char Shabda,"Deshpande, P L",nonfiction,misc,214,,6
+Suburbs Branch,Rosy is My Relative,"Durrell, Gerald",fiction,novel,176,,6
+Suburbs Branch,"Moon and Sixpence, The","Maugham, William S",fiction,classic,180,,8
+Suburbs Branch,Political Philosophers,,philosophy,politics,162,,10
+Suburbs Branch,"Short History of the World, A","Wells, H G",nonfiction,history,197,,3
+Suburbs Branch,"Trembling of a Leaf, The","Maugham, William S",fiction,novel,205,,9
+Suburbs Branch,Doctor on the Brain,"Gordon, Richard",fiction,novel,204,,4
+Suburbs Branch,Simpsons & Their Mathematical Secrets,"Singh, Simon",science,mathematics,233,,2
+Suburbs Branch,Pattern Classification,"Duda, Hart",tech,data_science,241,,2
+Suburbs Branch,From Beirut to Jerusalem,"Friedman, Thomas",nonfiction,history,202,,3
+Suburbs Branch,"Code Book, The","Singh, Simon",science,mathematics,197,,8
+Suburbs Branch,"Age of the Warrior, The","Fisk, Robert",nonfiction,history,197,,4
+Suburbs Branch,Final Crisis,,fiction,comic,257,,7
+Suburbs Branch,"Killing Joke, The",,fiction,comic,283,,6
+Suburbs Branch,Flashpoint,,fiction,comic,265,,6
+Suburbs Branch,Batman Earth One,,fiction,comic,265,,5
+Suburbs Branch,Crisis on Infinite Earths,,fiction,comic,258,,5
+Suburbs Branch,"Numbers Behind Numb3rs, The","Devlin, Keith",science,mathematics,202,,9
+Suburbs Branch,Superman Earth One - 1,,fiction,comic,259,,0
+Suburbs Branch,Superman Earth One - 2,,fiction,comic,258,,5
+Suburbs Branch,Justice League: Throne of Atlantis,,fiction,comic,258,,6
+Suburbs Branch,Justice League: The Villain's Journey,,fiction,comic,258,,1
+Suburbs Branch,"Death of Superman, The",,fiction,comic,258,,9
+Suburbs Branch,History of the DC Universe,,fiction,comic,258,,5
+Suburbs Branch,Batman: The Long Halloween,,fiction,comic,258,,6
+Suburbs Branch,"Life in Letters, A","Steinbeck, John",nonfiction,autobiography,196,,5
+Suburbs Branch,"Information, The","Gleick, James",science,mathematics,233,,5
+Suburbs Branch,"Journal of Economics, vol 106 No 3",,science,economics,235,,3
+Suburbs Branch,Elements of Information Theory,"Thomas, Joy",tech,signal_processing,229,,1
+Suburbs Branch,Power Electronics - Rashid,"Rashid, Muhammad",tech,computer_science,235,,5
+Suburbs Branch,Power Electronics - Mohan,"Mohan, Ned",tech,computer_science,237,,9
+Suburbs Branch,Neural Networks,"Haykin, Simon",tech,data_science,240,,1
+Suburbs Branch,"Grapes of Wrath, The","Steinbeck, John",fiction,classic,196,,9
+Suburbs Branch,Vyakti ani Valli,"Deshpande, P L",nonfiction,misc,211,,2
+Suburbs Branch,Statistical Learning Theory,"Vapnik, Vladimir",tech,data_science,228,,1
+Suburbs Branch,Empire of the Mughal - The Tainted Throne,"Rutherford, Alex",nonfiction,history,180,,7
+Suburbs Branch,Empire of the Mughal - Brothers at War,"Rutherford, Alex",nonfiction,history,180,,8
+Suburbs Branch,Empire of the Mughal - Ruler of the World,"Rutherford, Alex",nonfiction,history,180,,6
+Suburbs Branch,Empire of the Mughal - The Serpent's Tooth,"Rutherford, Alex",nonfiction,history,180,,10
+Suburbs Branch,Empire of the Mughal - Raiders from the North,"Rutherford, Alex",nonfiction,history,180,,9
+Suburbs Branch,Mossad,"Baz-Zohar, Michael",nonfiction,history,236,,0
+Suburbs Branch,Jim Corbett Omnibus,"Corbett, Jim",nonfiction,history,223,,6
+Suburbs Branch,20000 Leagues Under the Sea,"Verne, Jules",fiction,novel,190,,9
+Suburbs Branch,Batatyachi Chal,Deshpande P L,fiction,novel,200,,1
+Suburbs Branch,Hafasavnuk,Deshpande P L,fiction,novel,211,,3
+Suburbs Branch,Urlasurla,Deshpande P L,fiction,novel,211,,7
+Suburbs Branch,Pointers in C,"Kanetkar, Yashwant",tech,computer_science,213,,3
+Suburbs Branch,"Cathedral and the Bazaar, The","Raymond, Eric",tech,computer_science,217,,6
+Suburbs Branch,Design with OpAmps,"Franco, Sergio",tech,computer_science,240,,10
+Suburbs Branch,Think Complexity,"Downey, Allen",tech,data_science,230,,3
+Suburbs Branch,"Devil's Advocate, The","West, Morris",fiction,novel,178,,0
+Suburbs Branch,Ayn Rand Answers,"Rand, Ayn",philosophy,objectivism,203,,4
+Suburbs Branch,Philosophy: Who Needs It,"Rand, Ayn",philosophy,objectivism,171,,3
+Suburbs Branch,"World's Great Thinkers, The",,science,physics,189,,1
+Suburbs Branch,Data Analysis with Open Source Tools,"Janert, Phillip",tech,data_science,230,,5
+Suburbs Branch,Broca's Brain,"Sagan, Carl",science,physics,174,,4
+Suburbs Branch,Men of Mathematics,"Bell, E T",science,mathematics,217,,5
+Suburbs Branch,Oxford book of Modern Science Writing,"Dawkins, Richard",science,science,240,,6
+Suburbs Branch,"Justice, Judiciary and Democracy","Ranjan, Sudhanshu",nonfiction,legal,224,,3
+Suburbs Branch,"Arthashastra, The",Kautiyla,philosophy,philosophy,214,,7
+Suburbs Branch,We the People,Palkhivala,philosophy,philosophy,216,,7
+Suburbs Branch,We the Nation,Palkhivala,philosophy,philosophy,216,,8
+Suburbs Branch,"Courtroom Genius, The",Sorabjee,nonfiction,autobiography,217,,7
+Suburbs Branch,Dongri to Dubai,"Zaidi, Hussain",nonfiction,history,216,,0
+Suburbs Branch,"History of England, Foundation","Ackroyd, Peter",nonfiction,history,197,,5
+Suburbs Branch,City of Djinns,"Dalrymple, William",nonfiction,history,198,,1
+Suburbs Branch,India's Legal System,Nariman,nonfiction,legal,177,,4
+Suburbs Branch,More Tears to Cry,"Sassoon, Jean",fiction,novel,235,,8
+Suburbs Branch,"Ropemaker, The","Dickinson, Peter",fiction,novel,196,,8
+Suburbs Branch,Angels & Demons,"Brown, Dan",fiction,novel,170,,9
+Suburbs Branch,"Judge, The",,fiction,novel,170,,7
+Suburbs Branch,"Attorney, The",,fiction,novel,170,,2
+Suburbs Branch,"Prince, The",Machiavelli,fiction,classic,173,,6
+Suburbs Branch,Eyeless in Gaza,"Huxley, Aldous",fiction,novel,180,,1
+Suburbs Branch,Tales of Beedle the Bard,"Rowling, J K",fiction,novel,184,,3
+Suburbs Branch,Girl with the Dragon Tattoo,"Larsson, Steig",fiction,novel,179,,4
+Suburbs Branch,Girl who kicked the Hornet's Nest,"Larsson, Steig",fiction,novel,179,,0
+Suburbs Branch,Girl who played with Fire,"Larsson, Steig",fiction,novel,179,,3
+Suburbs Branch,Batman Handbook,,fiction,comic,270,,0
+Suburbs Branch,Murphy's Law,,philosophy,psychology,178,,8
+Suburbs Branch,Structure and Randomness,"Tao, Terence",science,mathematics,252,,6
+Suburbs Branch,Image Processing with MATLAB,"Eddins, Steve",tech,signal_processing,241,,8
+Suburbs Branch,Animal Farm,"Orwell, George",fiction,classic,180,,2
+Suburbs Branch,"Idiot, The","Dostoevsky, Fyodor",fiction,classic,197,,4
+Suburbs Branch,"Christmas Carol, A","Dickens, Charles",fiction,classic,196,,9

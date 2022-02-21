@@ -1,0 +1,38 @@
+<% @user = current_user %>
+
+<p>
+  <strong>Library:</strong>
+  <%= @library.library %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @library.address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @library.city %>
+</p>
+
+<p>
+  <strong>Postalcode:</strong>
+  <%= @library.postalcode %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @library.phone %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @library.number %>
+</p>
+
+
+<% if user_signed_in? && @user.admin %>
+  <%= link_to 'Edit', edit_library_path(@library) %> |
+<% end %>
+
+<%= link_to 'Back', libraries_path %>

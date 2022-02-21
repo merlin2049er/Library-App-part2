@@ -2,18 +2,30 @@
 
   <% if user_signed_in? %>
     <%= link_to "Checked out",  controller: "books", action: "checkedout"  %>
+    <%= link_to "Libraries",  controller: "libraries", action: "index"  %>
   <% end %>
 
   <% if user_signed_in? && @user.admin %>
     <%= link_to "Book log",  controller: "books", action: "booklog"  %>
     <%= link_to "Add book",  controller: "books", action: "new"  %>
+    <%= link_to "Add library",  controller: "libraries", action: "new"  %>
+
 
   <% end %>
 <h1>Books</h1>
 
+<%= search_form_for @q do |f| %>
+
+  <%= f.label :Title_cont %>
+  <%= f.search_field :Title_cont %>
+  <%= f.submit %>
+<% end %>
+<div> Query returned <%= @count %> results </div>
+<br>
 <table>
   <thead>
     <tr>
+      <th>Library</th>
       <th>Title</th>
       <th>Author</th>
       <th>Genre</th>
@@ -31,6 +43,7 @@
   <tbody>
     <% @books.each do |book| %>
       <tr>
+        <td><%= book.Library %></td>
         <td><%= book.Title %></td>
         <td><%= book.Author %></td>
         <td><%= book.Genre %></td>
@@ -46,7 +59,7 @@
         <% if user_signed_in? && remaining > 0 %>
             <td> <%= link_to "Borrow",  controller: "books", action: "borrow" , id: book.id %> </td>
             <% else %>
-          <td>  Borrow</td>
+          <td>  Notify</td>
         <% end %>
         <td><%= link_to 'Show', book %></td>
 

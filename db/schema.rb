@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_19_143213) do
+ActiveRecord::Schema.define(version: 2022_02_21_000309) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2022_02_19_143213) do
     t.integer "Copies"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "Library"
   end
 
   create_table "checkedouts", force: :cascade do |t|
@@ -34,6 +35,17 @@ ActiveRecord::Schema.define(version: 2022_02_19_143213) do
     t.datetime "duedate"
     t.datetime "returndate"
     t.boolean "checkedoutstatus"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "libraries", force: :cascade do |t|
+    t.string "library"
+    t.string "address"
+    t.string "city"
+    t.string "postalcode"
+    t.string "phone"
+    t.string "number"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Local Library System</title>
+    <title>Regional Library System</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -14,7 +14,7 @@
       <p class="alert"><%= alert %></p>
 
   <body>
-    <h1><%= link_to   "Local Library System", books_path %></h1>
+    <h1><%= link_to   "Regional Library System", books_path %></h1>
 
     <% if user_signed_in? %>
       <%= link_to current_user.email, edit_user_registration_path %>
