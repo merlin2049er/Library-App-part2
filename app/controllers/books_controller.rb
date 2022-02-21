@@ -1,6 +1,6 @@
 class BooksController < ApplicationController
   include Pagy::Backend
-  before_action :set_book, only: %i[ show edit update destroy borrow return pay]
+  before_action :set_book, only: %i[ show edit update destroy borrow return notify]
 
   # GET /books or /books.json
   def index
@@ -9,7 +9,7 @@ class BooksController < ApplicationController
     @books = @q.result(distinct: true)
 
     @count = @books.count
-    
+
     #@books = Book.all
     @pagy, @books = pagy(@books)
   end
@@ -117,9 +117,28 @@ class BooksController < ApplicationController
 
   end
 
-  def pay
-      render "layouts/payfines"
+
+
+  def notify
+
+    redirect_to root_url  if !current_user
+    #add userid and book_id of a book that is not in house
+    id = params[:id]
+
+    already_notified = Notify.where({ user: current_user, book_id: id })
+
+    if  already_notified.count == 0
+       Notify.create({user: current_user, book: @book })
+      flash.alert = @book.Title + " on hold..."
+    else
+      flash.alert = @book.Title + " already on hold, one copy permitted..."
+    end
+
+    redirect_to root_path
+
+
   end
+
 
   private
     # Use callbacks to share common setup or constraints between actions.
