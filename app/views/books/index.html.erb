@@ -60,8 +60,11 @@
 
         <% if user_signed_in? && remaining > 0 %>
             <td> <%= link_to "Borrow",  controller: "books", action: "borrow" , id: book.id %> </td>
-            <% else %>
+            <% elsif user_signed_in? %>
           <td>  <%= link_to "Notify",  controller: "books", action: "notify" , id: book.id %></td>
+          <% else %>
+          
+
         <% end %>
         <td><%= link_to 'Show', book %></td>
 
