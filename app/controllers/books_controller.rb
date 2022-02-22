@@ -123,8 +123,6 @@ class BooksController < ApplicationController
 
     end
 
-
-
     returned = Checkedout.where(book_id: id).and(Checkedout.where(checkedoutstatus: true))
     returned.update(checkedoutstatus: false, returndate: Date.today)
 
@@ -132,8 +130,6 @@ class BooksController < ApplicationController
     redirect_to root_path
 
   end
-
-
 
   def notify
 
@@ -157,9 +153,7 @@ class BooksController < ApplicationController
   def notificationlog
 
     @notificationlog = Notify.where({ user_id: current_user})
-
     @count = @notificationlog.count
-
 
   end
 
@@ -178,8 +172,6 @@ class BooksController < ApplicationController
         format.json { head :no_content }
       end
     end
-
-
   end
 
 
