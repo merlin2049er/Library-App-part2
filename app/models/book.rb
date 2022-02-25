@@ -8,5 +8,8 @@ class Book < ApplicationRecord
 
   validates :Copies, presence: true
   has_many :checkedouts
+  has_many :notifies
+
+  has_many :notify_users, through: :notifies, source: :user
 
 end

@@ -4,11 +4,13 @@ class ReminderMailer < ApplicationMailer
   layout 'mailer'
 
 
-  def reminder_email(user)
-    @user = user
-    mail(to: @user.email, subject: 'Youe books on hold arrived...')
+  def reminder_email(book)
+
+    book.notify_users.each do |i|
+      @user = i
+      mail(to: @user.email, subject: 'Your book on hold has arrived...')
+    end
 
   end
-
 
 end

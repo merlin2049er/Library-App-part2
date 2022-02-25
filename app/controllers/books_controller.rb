@@ -98,7 +98,8 @@ class BooksController < ApplicationController
 
   def booklog
 
-    @booklog = Checkedout.all
+    @booklog = Checkedout.order(:book_id)
+
     @pagy, @booklog = pagy(@booklog)
     @count = Checkedout.count
 
@@ -107,20 +108,17 @@ class BooksController < ApplicationController
 
 
   def return
-
     id = params[:id]
+    book = Book.find_by_id(id)
+    copies = book.Copies  #number of copies of the book
+    taken = Checkedout.where(book_id: id, checkedoutstatus: true).count  # number of books checked out of this id
 
-    copies = (Book.find_by id: id).Copies
-    taken = Checkedout.where(book_id: id, checkedoutstatus: true).count
-
-    remaining = copies - taken
+    remaining = copies - taken  #remaining copies
     onhold = Notify.where(book_id: id).count
 
     if onhold > 0 and remaining = 0
-      # run the mailing script here...
-
-      binding.pry
-
+      # run the mailing script here...lookup each user for this book
+      ReminderMailer.reminder_email(book).deliver_now
     end
 
     returned = Checkedout.where(book_id: id).and(Checkedout.where(checkedoutstatus: true))
@@ -158,7 +156,7 @@ class BooksController < ApplicationController
   end
 
   def destroy_notify
-    @notify = current_user.notifys.find_by_book_id(params[:id])
+    @notify = current_user.notifies.find_by_book_id(params[:id])
 
     if @notify and @notify.destroy
 

@@ -5,5 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :checkedouts
-  has_many :notifys
+  # has_many :notifys
+  has_many :notifies
+
 end
