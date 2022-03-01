@@ -7,7 +7,7 @@
 <table>
   <thead>
     <tr>
-
+      <th>Library</th>
       <th>Title</th>
 
       <th>Patreon</th>
@@ -24,7 +24,7 @@
     <% @booklog.each do |book| %>
       <tr>
 
-
+        <td> <% library = Book.find(book.book_id) %><%= library.Library %></td>
         <td> <% title = Book.find(book.book_id) %><%= title.Title %></td>
         <td> <% patreon = User.find(book.user_id) %><%= mail_to ( patreon.email) %></td>
 
